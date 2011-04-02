@@ -15,7 +15,7 @@ class TestJSONRPCEndPoint(unittest.TestCase):
         testing.cleanUp()
 
     def _getTargetClass(self):
-        from pyramid_rpc.jsonrpc import jsonrpc_endpoint
+        from pyramid_rpc.jsonrpc1 import jsonrpc_endpoint
         return jsonrpc_endpoint
 
     def _makeOne(self, *arg, **kw):
@@ -127,7 +127,7 @@ def call_venusian(venusian):
 
 class TestJSONRPCParse(unittest.TestCase):
     def _callFUT(self, *args, **kwargs):
-        from pyramid_rpc.jsonrpc import jsonrpc_parse
+        from pyramid_rpc.jsonrpc1 import jsonrpc_parse
         return jsonrpc_parse(*args, **kwargs)
 
     def test_it(self):
