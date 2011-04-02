@@ -11,9 +11,6 @@ Currently available RPC Implementations:
 
 * `XML-RPC <http://www.xmlrpc.com/>`_
 * `Action Message Format (AMF) via PyAMF <http://pyamf.org/index.html>`_
-
-Implementations planned for:
-
 * `JSON-RPC <http://json-rpc.org/wiki/specification>`_
 
 File an issue on the `GitHub Issue Tracker for pyramid_rpc
@@ -40,6 +37,7 @@ RPC Documentation
     :maxdepth: 2
     
     xmlrpc
+    jsonrpc
     amf
     developer
 

@@ -9,3 +9,6 @@ dist/
 .tox
 nosetests.xml
 pyramid_rpc/coverage.xml
+Lib
+Scripts
+.gitignore
